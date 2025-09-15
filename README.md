@@ -1,72 +1,26 @@
-User Dashboard – React Frontend Intern Assignment
-📌 Overview
+# User Dashboard – React Frontend Intern Assignment
 
-A simple React.js User Dashboard that fetches and displays user data in card layout.
-Includes search/filter by name, responsive design, and basic routing.
+## Overview
+A simple React.js User Dashboard that fetches users from API and displays them in card layout. Includes search/filter and routing to user details page.
 
-🚀 Features
+## Features
+- Fetch users from `https://jsonplaceholder.typicode.com/users`
+- Show name, email, phone, company in cards
+- Search/filter by name
+- Create New User form (client-side only)
+- User details page with full info
+- Responsive design
 
-Fetch users from the public API
-Display name, email, phone, and company name in cards
+## Tech Stack
+- React.js (functional components + hooks)
+- Axios
+- React Router DOM
+- CSS / Tailwind
 
-Search/filter users by name
-
-"Create New User" form (client-side only)
-
-Mobile-friendly layout
-
-🛠️ Tech Stack
-
-React.js (Functional components & hooks)
-
-React Router DOM
-
-Axios
-
-📂 Project Structure
-user-dashboard-react/
+## Project Structure
+frontend/
 ├── src/
-│   ├── components/       # Reusable UI components (UserCard, Header, etc.)
-│   ├── pages/            # Dashboard & User Details pages
-│   └── App.js            # Main component with routing
-├── public/
-└── package.json
-
-⚡ Setup & Run Locally
-
-Clone the repository:
-
-git clone <repo-url>
-cd user-dashboard-react
-
-
-Install dependencies:
-
-npm install
-
-
-Start development server:
-
-npm start
-
-
-🚀 Deployment
-
-Build the project:
-
-npm run build
-
-
-Deploy the build folder to Vercel or Netlify
-
-Update API URLs if connecting to a backend server
-
-📝 Notes
-
-Uses React hooks: useState, useEffect
-
-Routing via React Router DOM
-
-Modular, reusable components
-
-Fully responsive design
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Dashboard & User Details pages
+│ ├── context/ # Global state using React Context
+│ └── App.js # Main routes

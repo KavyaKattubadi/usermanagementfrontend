@@ -6,8 +6,7 @@ Includes search/filter by name, responsive design, and basic routing.
 
 🚀 Features
 
-Fetch users from the public API (https://jsonplaceholder.typicode.com/users)
-
+Fetch users from the public API
 Display name, email, phone, and company name in cards
 
 Search/filter users by name
@@ -23,8 +22,6 @@ React.js (Functional components & hooks)
 React Router DOM
 
 Axios
-
-CSS or Tailwind (optional)
 
 📂 Project Structure
 user-dashboard-react/
@@ -52,8 +49,6 @@ Start development server:
 
 npm start
 
-
-Access the app at http://localhost:3000
 
 🚀 Deployment
 
